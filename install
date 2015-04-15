@@ -9,4 +9,5 @@ echo "export PATH = $path" >> ~/.bashrc
 cd ..
 teensypath=$(pwd)
 echo "export PATH = $teensypath" >> ~/.bashrc
+source ~/.bashrc
 exit

@@ -4,6 +4,9 @@
 
 cd install
 make
-path=$(pwd)
+tlcpath=$(pwd)
 echo "export PATH = $path" >> ~/.bashrc
+cd ..
+teensypath=$(pwd)
+echo "export PATH = $teensypath" >> ~/.bashrc
 exit

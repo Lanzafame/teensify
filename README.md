@@ -14,3 +14,7 @@ Requires that you have already installed the avr toolchain for your platform.
    
     $ teensify source.c output
 
+# Note
+
+Anyone able to configure the Windows/Cygwin part of the teensy_loader_cli
+Makefile, that would be great. Thanks.

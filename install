@@ -5,9 +5,9 @@
 cd teensy_loader_cli
 make
 tlcpath=$(pwd)
-echo "export PATH = $path" >> ~/.bashrc
+echo "export PATH=$PATH:$tlcpath" >> ~/.bashrc
 cd ..
 teensypath=$(pwd)
-echo "export PATH = $teensypath" >> ~/.bashrc
+echo "export PATH=$PATH:$teensypath" >> ~/.bashrc
 source ~/.bashrc
 exit

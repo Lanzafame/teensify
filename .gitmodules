@@ -1,0 +1,3 @@
+[submodule "teensy_loader_cli"]
+	path = teensy_loader_cli
+	url = https://github.com/Lanzafame/teensy_loader_cli.git

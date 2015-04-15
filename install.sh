@@ -2,7 +2,7 @@
 
 # install script
 
-cd install
+cd teensy_loader_cli
 make
 tlcpath=$(pwd)
 echo "export PATH = $path" >> ~/.bashrc

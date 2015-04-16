@@ -10,11 +10,4 @@ compile-upload() {
 	teensy_loader_cli --mcu=$MCU -w -r -v $2.hex
 }
 
-if [ "$1" = "-mcu" ]
-then
-  echo "Setting MCU to $2"
-  MCU = $2
-  compile-upload $3 $4
-fi
-
 compile-upload $1 $2

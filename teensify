@@ -7,7 +7,7 @@ MCU="atmega32u4"
 compile-upload() {
 	avr-gcc -mmcu=$MCU -Os -DF_CPU=16000000UL $1 -o $2.o
 	avr-objcopy -O ihex $2.o $2.hex
-	teensy_loader_cli --mcu=$MCU -w -r -v $2.hex
+	teensy_loader_cli --mcu=$MCU -w -v $2.hex
 }
 
 compile-upload $1 $2

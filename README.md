@@ -14,11 +14,6 @@ Requires that you have already installed the avr toolchain for your platform.
    
     $ teensify source.c output
 
-# TODO
-
- - Fix the '-mcu' option flag to properly set the MCU for that run of the
- command.
-
 # Note
 
 Anyone able to configure the Windows/Cygwin part of the teensy_loader_cli
